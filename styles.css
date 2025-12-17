@@ -1,0 +1,31 @@
+body{
+  margin:0;
+  font-family:Inter, sans-serif;
+  background:#0F0F12;
+  color:#F5F5F7;
+}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+.accent{color:#4F7CFF}
+.topbar{border-bottom:1px solid #222}
+.topbar__inner{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.brand{font-weight:700;font-size:20px}
+.hero{padding:60px 0}
+.hero__grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.lead{color:#bbb}
+.card{background:#15151B;border-radius:16px;padding:24px}
+.cta-row{margin-top:20px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:14px 22px;border-radius:14px;text-decoration:none;font-weight:600;display:inline-block;text-align:center}
+.btn--primary{background:#4F7CFF;color:#fff}
+.btn--secondary{background:#2A2A35;color:#fff}
+.btn--block{width:100%}
+.section{padding:60px 0}
+.offers{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.offer .price{font-size:28px;font-weight:700}
+.offer .price span{font-size:14px;color:#aaa}
+.price-sub{color:#aaa}
+label{display:block;margin-bottom:12px}
+input,textarea{width:100%;padding:12px;border-radius:10px;border:none;margin-top:6px}
+.footer{border-top:1px solid #222;padding:30px 0;margin-top:40px}
+@media(max-width:900px){
+.hero__grid,.offers{grid-template-columns:1fr}
+}
